@@ -2,109 +2,133 @@ body {
   background: #f3e9e0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.intro {
-  padding: 4rem;
-  background: url("images/retroBackground.jpg"); 
-}
-
-li {
-  background: #84cba1;
-}
-
-.intro div {
-  background: white;
-  padding: 2rem;
-}
-
-h1 {
-  background: #ffbc36;
-}
-
-span {
-  color: #ff7f50;
+/* Adding code for navigation */
+.navigation li:hover {
   font-weight: bold;
+  background-color: rgb(13, 185, 227);
 }
-
+.navigation li:visited {
+  font-weight: bold;
+  color: black;
+}
+.navigation li:active {
+  font-weight: bold;
+  background-color: orange;
+  color: red;
+}
+.container ul {
+  padding: 0px;
+}
+/* original coding */
+.container ul li {
+  list-style-type: none;
+}
+div.container + ul li {
+  list-style-type: none;
+  background-color: rgb(12, 185, 227);
+}
 .navigation {
   background-color: burlywood;
 }
-
-.container ul li {
-  list-style-type: armenian;
+/* Modifying .intro */
+.intro {
+  padding: 4rem;
+  background: url("/images/retroBackground.png");
+  font-weight: bold;
 }
-
+li {
+  background: #84cba1;
+}
+.intro div {
+  background: rgba(255, 255, 255, 0.623);
+  padding: 2rem;
+}
+h1 {
+  background: #ffbc36;
+}
+/* span area */
+span {
+  color: darkgreen;
+  font-weight: bold;
+}
 .oldFavs ol li {
+  font-weight: bold;
   color: black;
   padding: 0.4rem 0.2rem;
 }
-
-div.container + ul li {
-  list-style-type: none;
+.oldFavs li:nth-child(3) {
+  color: #ff0000;
+  border-radius: 20px;
 }
-
+/* Modifying the retroGallery  */
 .retroGallery div {
-  background:yellow;
+  background: gray;
 }
-
 .retroGame {
   width: 250px;
   height: 250px;
   background: #000;
   margin-bottom: 10px;
+  border-radius: 20px;
 }
+.retroGame img{
+  object-fit: cover;
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+/* Adding hidden images for retroGame */
+.retroGame1 {
+  width: 250px;
+  height: 250px;
+  background:url("/images/retro1.jpeg") no-repeat;
+}
+.retroGame1:hover {
+  background:url("/images/retro1.jpeg") no-repeat;
+}
+.retroGame2 {
+  width: 250px;
+  height: 250px;
+  background:url("/images/retro2.jpeg") no-repeat;
+}
+.retroGame2:hover {
+  background:url("/images/retro2.jpeg") no-repeat;
+}
+.retroGame3 {
+  width: 250px;
+  height: 250px;
+  background:url("/images/retro3.jpeg") no-repeat;
+}
+.retroGame3:hover {
+  background:url("/images/retro3.jpeg") no-repeat;
+}
+.retroGame4 {
+  width: 250px;
+  height: 250px;
+  background:url("/images/retro4.jpeg") no-repeat;
+}
+.retroGame4:hover {
+  background:url("/images/retro4.jpeg") no-repeat;
+}
+.retroGallery p{
+ background-color: goldenrod; 
+}
+/* Adding Footer */
+.footer a{
+font-weight: bold;
+background-color: darkblue;
+color: white;
+}
+.footer a {
+  background-color: #f3e9e0;
+  color: black;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.oldFavs li:nth-child(3){
-  color: #ff0000
+}
+.mario img{
+  float: right;
+}
+#bottom p, a{
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
 }
