@@ -1,0 +1,110 @@
+body {
+  background: #f3e9e0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro {
+  padding: 4rem;
+  background: url("images/retroBackground.jpg"); 
+}
+
+li {
+  background: #84cba1;
+}
+
+.intro div {
+  background: white;
+  padding: 2rem;
+}
+
+h1 {
+  background: #ffbc36;
+}
+
+span {
+  color: #ff7f50;
+  font-weight: bold;
+}
+
+.navigation {
+  background-color: burlywood;
+}
+
+.container ul li {
+  list-style-type: armenian;
+}
+
+.oldFavs ol li {
+  color: black;
+  padding: 0.4rem 0.2rem;
+}
+
+div.container + ul li {
+  list-style-type: none;
+}
+
+.retroGallery div {
+  background:yellow;
+}
+
+.retroGame {
+  width: 250px;
+  height: 250px;
+  background: #000;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.oldFavs li:nth-child(3){
+  color: #ff0000
+}
