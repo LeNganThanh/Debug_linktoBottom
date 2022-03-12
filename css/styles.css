@@ -29,6 +29,7 @@ div.container + ul li {
 }
 .navigation {
   background-color: burlywood;
+  font-weight: bold;
 }
 /* Modifying .intro */
 .intro {
@@ -56,13 +57,15 @@ span {
   color: black;
   padding: 0.4rem 0.2rem;
 }
+/* This part is the origin code 
 .oldFavs li:nth-child(3) {
   color: #ff0000;
   border-radius: 20px;
 }
-/* Modifying the retroGallery  */
+ */ /* Modifying the retroGallery  */
 .retroGallery div {
   background: gray;
+  font-weight: bold;
 }
 .retroGame {
   width: 250px;
@@ -71,7 +74,7 @@ span {
   margin-bottom: 10px;
   border-radius: 20px;
 }
-.retroGame img{
+.retroGame img {
   object-fit: cover;
   display: none;
   position: absolute;
@@ -81,53 +84,54 @@ span {
 .retroGame1 {
   width: 250px;
   height: 250px;
-  background:url("/images/retro1.jpeg") no-repeat;
+  background: url("/images/retro1.jpeg") no-repeat;
 }
 .retroGame1:hover {
-  background:url("/images/retro1.jpeg") no-repeat;
+  background: url("/images/retro1.jpeg") no-repeat;
 }
 .retroGame2 {
   width: 250px;
   height: 250px;
-  background:url("/images/retro2.jpeg") no-repeat;
+  background: url("/images/retro2.jpeg") no-repeat;
 }
 .retroGame2:hover {
-  background:url("/images/retro2.jpeg") no-repeat;
+  background: url("/images/retro2.jpeg") no-repeat;
 }
 .retroGame3 {
   width: 250px;
   height: 250px;
-  background:url("/images/retro3.jpeg") no-repeat;
+  background: url("/images/retro3.jpeg") no-repeat;
 }
 .retroGame3:hover {
-  background:url("/images/retro3.jpeg") no-repeat;
+  background: url("/images/retro3.jpeg") no-repeat;
 }
 .retroGame4 {
   width: 250px;
   height: 250px;
-  background:url("/images/retro4.jpeg") no-repeat;
+  background: url("/images/retro4.jpeg") no-repeat;
 }
 .retroGame4:hover {
-  background:url("/images/retro4.jpeg") no-repeat;
+  background: url("/images/retro4.jpeg") no-repeat;
 }
-.retroGallery p{
- background-color: goldenrod; 
+.retroGallery p {
+  background-color: goldenrod;
 }
 /* Adding Footer */
-.footer a{
-font-weight: bold;
-background-color: darkblue;
-color: white;
+.footer ul a {
+  font-weight: bold;
+  background-color: darkblue;
+  color: white;
 }
 .footer a {
   background-color: #f3e9e0;
   color: black;
-
+  font-weight: bold;
 }
-.mario img{
+.mario img {
   float: right;
 }
-#bottom p, a{
+#bottom p:first-child,
+#bottom a {
   color: blue;
   font-weight: bold;
   text-decoration: underline;
