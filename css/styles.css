@@ -34,7 +34,7 @@ div.container + ul li {
 /* Modifying .intro */
 .intro {
   padding: 4rem;
-  background: url("/images/retroBackground.png");
+  background: url("../images/retroBackground.png");
   font-weight: bold;
 }
 li {
@@ -84,34 +84,34 @@ span {
 .retroGame1 {
   width: 250px;
   height: 250px;
-  background: url("/images/retro1.jpeg") no-repeat;
+  background: url("../images/retro1.jpeg") no-repeat;
 }
 .retroGame1:hover {
-  background: url("/images/retro1.jpeg") no-repeat;
+  background: url("../images/retro1.jpeg") no-repeat;
 }
 .retroGame2 {
   width: 250px;
   height: 250px;
-  background: url("/images/retro2.jpeg") no-repeat;
+  background: url("../images/retro2.jpeg") no-repeat;
 }
 .retroGame2:hover {
-  background: url("/images/retro2.jpeg") no-repeat;
+  background: url("../images/retro2.jpeg") no-repeat;
 }
 .retroGame3 {
   width: 250px;
   height: 250px;
-  background: url("/images/retro3.jpeg") no-repeat;
+  background: url("../images/retro3.jpeg") no-repeat;
 }
 .retroGame3:hover {
-  background: url("/images/retro3.jpeg") no-repeat;
+  background: url("../images/retro3.jpeg") no-repeat;
 }
 .retroGame4 {
   width: 250px;
   height: 250px;
-  background: url("/images/retro4.jpeg") no-repeat;
+  background: url("../images/retro4.jpeg") no-repeat;
 }
 .retroGame4:hover {
-  background: url("/images/retro4.jpeg") no-repeat;
+  background: url("../images/retro4.jpeg") no-repeat;
 }
 .retroGallery p {
   background-color: goldenrod;
